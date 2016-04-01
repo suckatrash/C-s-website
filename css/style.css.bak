@@ -17,10 +17,7 @@ html {
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 100px;
-}
-h3 {
-    font-family: 'Roboto', sans-serif;
-    color: #00ffff;
+    background-color: #008686;
 }
 div {
     font-size: 3.0em;
