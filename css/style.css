@@ -1,99 +1,59 @@
-@import url(http://fonts.googleapis.com/css?family=Roboto:100);
-
-* {
-    padding: 0;
-    margin: 0;
-}
-html { 
-  background:  url(https://img.buzzfeed.com/buzzfeed-static/static/enhanced/webdr05/2013/9/11/19/anigif_enhanced-buzz-5559-1378942181-0.gif) no-repeat center center fixed; 
-  background-size: cover;
-}
-@font-face {
-    font-family: 'Roboto', sans-serif;
-    src: url('http://fonts.googleapis.com/css?family=Roboto:100');
-    font-weight: normal;
-    font-style: normal;
-}
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+html,
 body {
-    font-family: 'Roboto', sans-serif;
-    font-size: 100px;
+  width: 100%;
+  font-family: "Open Sans", sans-serif;
+  background-color: #263238;
+  color: #e0e0e0;
 }
-h3 {
-    font-family: 'Roboto', sans-serif;
-    color: #00ffff;
+
+h1 {
+  text-align: center;
 }
-div {
-    font-size: 3.0em;
-    color: #00ffff;
-    width: 100%;
-    height: 100%;
+
+button {
+  background: none;
+  border: none;
+  background-color: #009688;
+  color: #e0e0e0;
+  font-size: 12px;
+  padding: 7px 20px;
+  border-radius: 3px;
+  transition: background-color 0.4s ease;
+  text-decoration: none;
 }
-div {
-    font-size: 4.0em;
-    color: #00ffff;
-    width: 100%;
-    height: 100%;
-    margin-top: 150px;
+button:hover {
+  box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: #4db6ac;
 }
-@media only screen and (max-width: 2200px) {
-    div {
-        font-size: 3.5em;
-        color: #00ffff;
-        width: 100%;
-        height: 100%;
-        margin-top: 150px;
-    }
+button:active {
+  box-shadow: none;
 }
-@media only screen and (max-width: 1950px) {
-    div {
-        font-size: 3.0em;
-        color: #00ffff;
-        width: 100%;
-        height: 100%;
-        margin-top: 200px;
-    }
+
+.container {
+  padding: 0 10px;
 }
-@media only screen and (max-width: 1650px) {
-    div {
-        font-size: 2.5em;
-        color: #00ffff;
-        width: 100%;
-        height: 100%;
-        margin-top: 200px;
-    }
+
+.cow {
+  height: 250px;
+  width: 500px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
 }
-@media only screen and (max-width: 1350px) {
-    div {
-        font-size: 2.0em;
-        color: #00ffff;
-        width: 100%;
-        height: 100%;
-        margin-top: 200px;
-    }
+
+.actions {
+  margin-top: 20px;
+  margin-left: 175px;
+  margin-right: auto;
+  width: 150px;
 }
-@media only screen and (max-width: 1150px) {
-    div {
-        font-size: 1.5em;
-        color: #00ffff;
-        width: 100%;
-        height: 100%;
-        margin-top: 250px;
-    }
+.actions button {
+  width: 150px;
+  margin-top: 10px;
 }
-@media only screen and (max-width: 850px) {
-    div {
-        font-size: 1.0em;
-        color: #00ffff;
-        width: 100%;
-        height: 100%;
-        margin-top: 250px;
-    }
+
+#quote {
+  font-size: 20px;
 }
-@media only screen and (max-width: 600px) {
-    div {
-        font-size: 1.0em;
-        color: #00ffff;
-        width: 100%;
-        height: 100%;
-    }
-}
+
